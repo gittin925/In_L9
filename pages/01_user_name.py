@@ -35,7 +35,7 @@ if ('user_name' in st.session_state and st.session_state.user_name):
         else:
             st.write("**趣味:** 未設定")
 
-    st.balloons()
+    st.snow()
 
 else:
     st.error("❌ ユーザー情報が設定されていません")
